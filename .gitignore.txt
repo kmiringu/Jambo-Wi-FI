@@ -1,0 +1,26 @@
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyw
+.Python
+
+# Database files
+*.db
+*.sqlite3
+
+# Environment files (contain passwords)
+.env
+*.env
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+*.log
+
+# Windows files
+Thumbs.db
+Desktop.ini
