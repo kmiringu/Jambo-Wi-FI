@@ -3,6 +3,7 @@
 A complete network user management system built with Python Django.
 
 ## Features
+
 - PPPoE user management
 - Hotspot captive portal
 - RADIUS integration
@@ -10,4 +11,5 @@ A complete network user management system built with Python Django.
 - Real-time monitoring
 
 ## Setup Instructions
+
 Coming soon...
