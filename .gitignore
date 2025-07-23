@@ -1,26 +1,50 @@
-# Python files
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyw
+*.py[cod]
+*$py.class
+*.so
 .Python
+env/
+venv/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Database files
-*.db
-*.sqlite3
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
 
-# Environment files (contain passwords)
+# Environment variables
 .env
+.env.local
+.env.production
 *.env
 
-# Virtual environment
-venv/
-env/
-
-# IDE files
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
 *.log
 
-# Windows files
-Thumbs.db
-Desktop.ini
+# Docker
+.dockerignore
+
+# Temporary files
+tmp/
+temp/
